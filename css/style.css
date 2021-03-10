@@ -9,11 +9,13 @@
     font-display: swap;
 }
 
+
+
 * {
     margin: 0;
     padding: 0;
   }
-  
+
 
 *{
     box-sizing: border-box;
@@ -72,7 +74,7 @@ button{
     color: #727272;
     width: 540px;
     margin: 0 auto;
-    
+
 }
 .title{
     font-family: Roboto;
@@ -82,14 +84,14 @@ button{
     line-height: 37px;
     text-align: center;
     color: #000000;
-    
+
 }
 /* header */
 .header{
     background: #EEEFF1;
     padding-top: 57px;
 }
-.header__container{ 
+.header__container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -98,7 +100,7 @@ button{
 .header__list{
     display: flex;
     column-gap: 40px;
-    
+
 }
 .header__list-link:hover{
     background: #34547A;
@@ -202,7 +204,7 @@ button{
     height: 50px;
     padding-left: 70px;
     margin-bottom: 30px;
-    
+
 
 }
 .proects__title{
@@ -212,8 +214,8 @@ button{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    
-   
+
+
 }
 /* accent */
 .accent__b{
@@ -274,8 +276,8 @@ button{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    
-    
+
+
 
 }
 .work__title{
@@ -310,22 +312,22 @@ button{
     flex-wrap: wrap;
     flex: 480px 1 1;
     justify-content: center;
-    
+
 }
 
 .foto__item-paper:hover{
     background:url(../images/view.png) no-repeat center,
-    linear-gradient(0deg, rgba(52, 84, 122, 0.8), rgba(52, 84, 122, 0.8)), 
+    linear-gradient(0deg, rgba(52, 84, 122, 0.8), rgba(52, 84, 122, 0.8)),
     url(../images/Rectangle.png);
-    
-    
+
+
 }
 .foto__item-mac:hover{
     background:url(../images/view.png) no-repeat center,
-    linear-gradient(0deg, rgba(52, 84, 122, 0.8), rgba(52, 84, 122, 0.8)), 
+    linear-gradient(0deg, rgba(52, 84, 122, 0.8), rgba(52, 84, 122, 0.8)),
     url(../images/Rectanglebook.png);
-    
-   
+
+
 }
 .foto-paper-mac-bottom{
     display: flex;
@@ -469,5 +471,5 @@ button{
     .label-form:not(:last-child){
         margin-bottom: 35px;
     }
-    
+
 }
